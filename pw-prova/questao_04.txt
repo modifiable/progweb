@@ -1,0 +1,14 @@
+          Quarta Questão - Prova 1
+
+Um closure é uma forma de utilizar escopos em cadeia para simular algum conteúdo privado. Isso ocorre quando uma variável de uma função x só pode ser acessada por uma função interna de x, a qual chamaremos de y. Mas, o conteúdo da função x existe apenas enquanto esta está em execução, então após o término da execução não seria possível acessar as variáveis de x, certo? Errado :)
+A função y mantém armazenado o valor que veio da função x. Dessa forma, é possível acessar as variáveis de x mesmo que sua execução já tenha finalizado.
+
+
+Explicação do código:
+
+    Quando a variável moo recebe foo(2), ela está recebendo todo o escopo da função retornada por foo(2). Ou seja, o tipo de moo é function.
+    Quando moo é executada pela primeira vez com o parâmetro 1, ela faz o seguinte processamento:
+        console.log(2 + 1 + 4)
+    Os valores 2 e 3 se mantiveram desde a execução de foo(2).
+    Dessa forma, quando moo é executada pela segunda vez com o parâmetro 1, ela faz o seguinte processamento:
+        console.log(2 + 1 + 5)

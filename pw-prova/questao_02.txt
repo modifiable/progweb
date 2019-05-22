@@ -1,0 +1,5 @@
+          Segunda Questão - Prova 1
+
+Seletor 1: title="css".
+Seletor 2: a tag span.
+Seletor 3: a tag span em conjunto com a classe cl1, assim: span.cl1.

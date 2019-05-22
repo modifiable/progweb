@@ -1,0 +1,15 @@
+          Primeira Questão - Prova 1
+
+Erro 1:
+    Na linha 04, o objetivo era escrever um comentário, porém a sintaxe utilizada está incorreta. O correto seria:
+         <!-- Isto é um comentário, não deve aparecer na página -->
+
+Erro 2:
+    Não é utilizada a tag <body>. Nesta tag deve conter todo o conteúdo da página HTML.
+    Neste caso, o correto seria adicionar "<body>" no início da linha 15 e "</body>" no final da linha 29, os dois sem as aspas.
+
+Erro 3:
+    Na linha 18 é utilizada a tag <strong>, porém ela não está sendo fechada. Para resolver este problema seria necessário adicionar (sem as aspas) "</strong>" após o término do texto de <p> que se quer abranger.
+
+Erro4: 
+    O conteúdo da linha 25 à linha 28 é feito em javascript, porém está entre as tags <style></style>, no entanto, essas tags se referem ao tipo CSS. Para resolver esse problema, deve-se substituir os conteúdos das linhas 24 e 29 por "<script>" e "</script>, respectivamente e sem as aspas.
