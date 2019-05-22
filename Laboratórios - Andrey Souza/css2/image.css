@@ -1,0 +1,20 @@
+body {
+  background-image: url("https://cdn.tourradar.com/s3/tour/original/99897_46368406.jpg");
+  background-size: cover;
+}
+
+p1 {
+	font-size: 200%;
+	font-weight: bold;
+}
+
+p {	
+	box-shadow: 2px 2px 5px 2px gray;
+	padding: 20px 5px 5px 5px;
+	margin: 60px 1500px 400px 60px;
+	border: 7px solid rgb(176, 217, 249);
+	border-radius: 10px;
+	background-color: rgba(252, 254, 255, 0.5);
+	font-size: 20px;
+	text-align: center;
+}

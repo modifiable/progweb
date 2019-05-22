@@ -1,0 +1,6 @@
+p {
+    background-color: rgb(210,210,210);
+    border: 5px solid black;
+    border-top-right-radius: 18px;
+    border-bottom-left-radius: 18px;
+}
