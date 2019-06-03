@@ -1,0 +1,71 @@
+.deserto{
+    width: 1200px;
+    height: 150px;
+    position: relative;
+}
+
+.number{
+    background-image: url(sprites.png);
+    width: 9px;
+    height: 11px;
+    position: absolute;
+    z-index: 10;
+}
+
+.xao{
+    background-image: url(sprites.png);
+    width: 1200px;
+    height: 16px;
+    position: absolute;
+    background-position-y: -53px;
+    bottom: 0px;
+}
+
+.botao{
+    background-image: url(button.png);
+    width: 36px;
+    height: 32px;
+    border: 0ch;
+    position: absolute;
+    z-index: 10;
+}
+
+.fim{
+    background-image: url(sprites.png);
+    width: 191px;
+    height: 11px;
+    position: absolute;
+    z-index: 10;
+}
+
+.nuvem{
+    background-image: url(sprites.png);
+    width: 47px;
+    height: 17px;
+    background-position: -86px 2px;
+    position: absolute;
+    z-index: 1;
+}
+
+.suculenta{
+    background-image: url(sprites.png);
+    position: absolute;
+    background-position-y: -2px;
+    z-index: 2;
+}
+
+.pepita{
+    background-image: url(sprites.png);
+    width: 44px;
+    height: 47px;
+    background-position-y: -2px;
+    position: absolute;
+    z-index: 3;
+}
+
+.pombo{
+    background-image: url(sprites.png);
+    height: 34px;
+    position: absolute;
+    z-index: 2;
+}
