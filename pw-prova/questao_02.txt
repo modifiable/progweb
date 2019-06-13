@@ -1,3 +1,6 @@
+David: 3 seletores foram identificados corretamente
+Nota: 2.0
+
           Segunda Questão - Prova 1
 
 Seletor 1: title="css".

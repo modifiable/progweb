@@ -1,3 +1,6 @@
+David: Definição de closure e descrição do código corretos.
+Nota: 2.0
+
           Quarta Questão - Prova 1
 
 Um closure é uma forma de utilizar escopos em cadeia para simular algum conteúdo privado. Isso ocorre quando uma variável de uma função x só pode ser acessada por uma função interna de x, a qual chamaremos de y. Mas, o conteúdo da função x existe apenas enquanto esta está em execução, então após o término da execução não seria possível acessar as variáveis de x, certo? Errado :)

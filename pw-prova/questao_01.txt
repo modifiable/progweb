@@ -1,3 +1,6 @@
+David: Todos os erros foram reportados corretamente
+Nota: 2.0
+
           Primeira Questão - Prova 1
 
 Erro 1:

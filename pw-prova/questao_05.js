@@ -1,3 +1,6 @@
+// David: Código implementado corretamente 
+// Nota: 2.0
+
 function Empregado(nome, salario) {
     var empregado = {
         nome,
