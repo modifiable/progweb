@@ -1,0 +1,41 @@
+<ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/cursos/lista">Cursos</a></li>
+    <li class="breadcrumb-item">Adicionar</li>
+</ol>
+<h1 class="display-4">Adicionar Cursos</h1>
+<div>
+        <script>
+                function addcurso(){
+                $.ajax({
+                    url: '/cursos/add',
+                    type: 'POST',
+                    data: {
+                        nome: $("#1").val(),
+                        sigla:$("#2").val(),
+                        descricao:$("#3").val()
+                    },
+                    error: function (data) {
+                    },
+                    success: function (data) {
+                        window.location.href = "/cursos/lista";
+                    }
+                });
+            }
+            </script>
+
+    <form method="post" action="/cursos/adicionar">
+        <div class="form-group">
+            <label for="nome">Nome</label>
+            <input id="1" type="text" name="title" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="sigla">Sigla</label>
+            <input id="2" type="text" name="sigla" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="desc">Descricao</label>
+            <input id="3" type="text" name="desc" class="form-control">
+        </div>
+        <input type="text" value="Submit" onclick="addcurso" class="btn btn-primary">
+    </form>
+</div>
