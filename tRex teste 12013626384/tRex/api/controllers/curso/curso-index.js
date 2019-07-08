@@ -1,3 +1,4 @@
 module.exports = async function (req, res) {
-        res.view('pages/crud-curso');
+        let cursos = await Curso.find()
+    res.view('pages/crud-curso', {title: 'Curso', cursos})
 };

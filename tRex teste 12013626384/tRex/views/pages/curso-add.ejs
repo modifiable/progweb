@@ -4,29 +4,10 @@
 </ol>
 <h1 class="display-4">Adicionar Cursos</h1>
 <div>
-        <script>
-                function addcurso(){
-                $.ajax({
-                    url: '/cursos/add',
-                    type: 'POST',
-                    data: {
-                        nome: $("#1").val(),
-                        sigla:$("#2").val(),
-                        descricao:$("#3").val()
-                    },
-                    error: function (data) {
-                    },
-                    success: function (data) {
-                        window.location.href = "/cursos/lista";
-                    }
-                });
-            }
-            </script>
-
-    <form method="post" action="/cursos/adicionar">
+    <form method="post" action="/cursos">
         <div class="form-group">
             <label for="nome">Nome</label>
-            <input id="1" type="text" name="title" class="form-control">
+            <input id="1" type="text" name="nome" class="form-control">
         </div>
         <div class="form-group">
             <label for="sigla">Sigla</label>
@@ -36,6 +17,7 @@
             <label for="desc">Descricao</label>
             <input id="3" type="text" name="desc" class="form-control">
         </div>
-        <input type="text" value="Submit" onclick="addcurso" class="btn btn-primary">
+        <input type="hidden" name="_csrf" value="<%= _csrf %>">
+        <input type="submit" value="Submit" class="btn btn-primary">
     </form>
 </div>
